@@ -1,0 +1,40 @@
+@charset "URF-8";
+
+body{
+    background-color: lightseagreen;
+}#titulo{
+    color: rgb(136, 0, 0);
+    font-family: Arial;
+    text-align: center;
+}.um{
+    text-align:center;
+}.tres{
+    text-align: center;
+    margin-top: 5px;
+}#bloco1{
+    background-color: rgb(199, 255, 251);
+    border-radius: 10px;
+    padding: 15px;
+    width: 810px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+}#bloco2{
+    background-color:rgb(199, 255, 251);
+    border-radius: 10px;
+    padding: 15px;
+    width: 810px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+}#pag{
+    background-color:rgb(199, 255, 251);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+}
+#butão{
+    border-radius: 10px;
+}

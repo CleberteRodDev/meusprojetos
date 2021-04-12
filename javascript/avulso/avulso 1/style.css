@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    font: normal 15pt Arial;
+    background-color: rgb(240, 168, 168);
+    color: rgb(39, 3, 3);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1600px;
+}
+div{
+    color: rgb(226, 128, 0);
+    margin-top: 20px; 
+}
+#ini{
+    color: black;
+    font: normal 25pt Arial;
+    text-align: center;
+
+}
+h2{
+    color: rgb(187, 5, 5);
+}
+#bloco1{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.726);
+}
+#bloco2{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.726);
+    margin: auto;
+    margin-top: 10px;
+}
+#bloco3{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.726);
+    margin-top: 10px;
+}
+#bloco4{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.726);
+    margin-top: 10px;
+}
+#base{
+    text-align: center;
+    font-style: italic;
+}
+#img{
+    width: 50px;
+    margin: -12px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fazendo Testes</title>
+</head>
+<body>
+    <header id='ini'>
+        <h1>Calculadora básica:</h1>
+    </header>
+    <section id="bloco1">
+        <h2>Somando valores</h2>
+        <input style="border-radius: 10px;" type="number" name="txtn1" id="txtn1"> +
+        <input style="border-radius: 10px;" type="number" name="txtn2" id="txtn2">
+        <input class="butao" style="border-radius: 10px;" type="button" value="Somar" onclick="somar()" >
+        <div id="res">Resultado</div>
+    </section>
+    
+    <section id="bloco2">
+        <h2>Multiplicando valores</h2>
+        <input style="border-radius: 10px;" type="number" name="txtm1" id="txtm1"> x
+        <input style="border-radius: 10px;" type="number" name="txtm2" id="txtm2">
+        <input class="butao" style="border-radius: 10px;" type="button" value="Multiplic" onclick="Multiplicar()">
+        <div id="res2">Resultado</div>
+    </section>
+    
+    <section id="bloco3">
+        <h2>Subtraindo valores</h2>
+        <input style="border-radius: 10px;" type="number" name="txts1" id="txts1"> -
+        <input style="border-radius: 10px;" type="number" name="txts2" id="txts2">
+        <input class="butao" style="border-radius: 10px;" type="button" value="Subtrair" onclick="Subtrair()">
+        <div id="res3">Resultado</div>
+    </section>
+    
+    <section id="bloco4">
+        <h2>Dividindo valores</h2>
+        <input style="border-radius: 10px;" type="number" name="txtd1" id="txtd1"> ÷
+        <input style="border-radius: 10px;" type="number" name="txtd2" id="txtd2">
+        <input class="butao" style="border-radius: 10px;" type="button" value="Dividir" onclick="Dividir()">
+        <div id="res4">Resultado</div>
+    </section>
+    <footer id="base">
+        <p><img id="img" src="insta-logoo.jpg" alt="logo-insta"> <a href="https://www.instagram.com/cleberte.88/" target="_blank" rel="external">Cleberte Rodrigues</a></p>
+    </footer>
+
+    <script src="interação.js"></script>
+</body>
+</html>

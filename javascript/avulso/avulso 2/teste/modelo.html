@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade e IMC</h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite seu nome: 
+                <input type="text" name="txtnome" id="txtnome">
+            </p>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo
+                <input style = "box-shadow: initial;" type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input style = "box-shadow: initial;" type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>Digite sua altura:
+                <input type="number" name="numAlt" id="numAlt" min="0">
+            </p>
+            <p>Digite seu peso:
+                <input type="number" name="numP" id="numP" min="0">
+            </p>
+            <p id="butao">
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        <div id="res2">
+
+        </div>
+    </section>
+    <footer>
+        <p><img id="img1" src="icone/insta-logoo.jpg" alt="logo-insta"> <a style="color: rgba(216, 10, 10, 0.76);" href="https://www.instagram.com/cleberte.88/" target="_blank" rel="external"><strong>Cleberte Rodrigues</strong></a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

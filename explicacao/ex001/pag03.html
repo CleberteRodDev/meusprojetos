@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logozinha.ico" type="image/x-icon">
+    <title>Continuação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trabalhando com imagens</h1>
+    <h2>A tag <code style="background-color: initial;">&ltimg&gt</code></h2>
+    <p>Você pode adicionar imagens au conteúdo HTML como a imagem do exemplo abaixo:</p>
+    <img src="imagens/logo-html.png" alt="logo-html">
+    <p>Para colocar essa imagem no seu conteúdo HTML você tem que baixar um imagem específica  do seu gosto (PNG ou JPG dependendo do que for utilizar) tratar essa imagem com um editor de imagens, para que ela possa ficar de um tamanho menor (redimensionar) vai colocá-la no mesmo arquivo onde está seu documento HTML e com a tag <code>&ltimg&gt</code> você vai adicionar a imagem como o exemplo abaixo:</p>
+    <p><code>&ltimg scr="nome do arquivo da imagem" alt="nome que vai sobrepor a imagem caso ela não carregue"&gt</code></p>
+    <p>E assim a imgagem selecionada aparecerá.</p>
+    <p><strong>CUIDADO!</strong><br> Antes de sair pegando qualquer imagem por ai você deve ter pleno conhecimento sobre direitos autorais. Pesquise bem antes e procure imagens em lugares onde possam ser recicladas para uso próprio, exemplo do site <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a> onde você pode baixar imagens para o uso em criação do seu conteúdo.</p>
+
+    
+    <h2>Criando e adicionando um favicon</h2>
+    <p>O que é um favicon?</p>
+    <img src="imagens/favicon.PNG" alt="favicon-print">
+    <p>O favicon é aquela logo do Google por exemplo que fica ali na aba do navegador que você está usando. Se você prestar atenção, em todo site (quase todos) você vê uma logo lá em cima ou como é chamada favicon(imagem de favorito).</p>
+    <p>Existe uma forma em HTML de colocar esse favicon, com a tag <code>&ltlink rel="shortcut icon" href="nome-da-logo.ico" type="image/x-icon"&gt</code></p>
+    <p>Se você notar no <code>href=</code> encontrasse o nome do arquivo da logo e esse aquivo ele é <code>.ico</code>, ou seja, você tem que baixar uma imagem da sua logo nesse formato para que ela possa se adequar ao favicon.</p>
+    <p>Existe uma forma de você formatar uma imagem, ou emoji ou até mesmo criar um favicon que é no site <a href="https://favicon.io/" target="_blank" rel="external"> favicon.io</a> onde ele permite fazer essas alterações e até mesmo fazer download.</p>
+    <p><strong>ATENÇÃO</strong><br> Essa tag para adicionar o favicon fica na area de <code>&lthead&gt</code> acima do <code>&lttitle&gt</code> sempre nesse local.</p>
+    <div style="text-align: center;">
+        <button id="bt-next-page">
+            <a style="color: rgb(11, 248, 11);" href="index.html" rel="prev" target="_self">Página principal</a>
+        </button>
+        <button id="bt-next-page">
+            <a style="color: rgb(11, 248, 11);" href="pag02.html" rel="prev" target="_self">Página anterior</a>
+        </button>
+        <button id="bt-next-page">
+            <a style="color: rgb(11, 248, 11);" href="pag04.html" rel="next" target="_self">Próxima página</a>
+        </button>
+    </div>
+</body>
+</html>
